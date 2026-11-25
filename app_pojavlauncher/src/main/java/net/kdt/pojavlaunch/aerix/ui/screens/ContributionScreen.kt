@@ -85,8 +85,8 @@ object AerixContribution {
 
     val members: List<ContributionMember> = listOf(
         ContributionMember(
-            id = "entitybrian",
-            name = "Entitybrian",
+            id = "Reyansh",
+            name = "Reyansh",
             role = "Owner",
             title = "Developer / Programmer",
             roleColor = ownerRed,
@@ -96,34 +96,7 @@ object AerixContribution {
                 "Programs the renderer backends and the plugin support that loads them.",
                 "Builds, signs and ships every release.",
                 "Answers the bug reports and fixes what they turn up."
-            )
-        ),
-        ContributionMember(
-            id = "zerx-mc",
-            name = "Zerx-mc",
-            role = "Co-owner",
-            title = "Runtime and renderer manager",
-            roleColor = coOwnerBlue,
-            logoRes = R.drawable.aerix_contrib_zerx,
-            duties = listOf(
-                "Keeps the renderers working: Proton, Emesis and the bundled GL backends.",
-                "Manages the Java runtimes the launcher installs and picks.",
-                "Tests renderer and runtime builds on real devices before they ship.",
-                "Tracks the upstream renderer projects this launcher bundles."
-            )
-        ),
-        ContributionMember(
-            id = "fire-playz",
-            name = "Fire playz",
-            role = "Co-owner",
-            title = "Social and online manager",
-            roleColor = coOwnerBlue,
-            logoRes = R.drawable.aerix_contrib_fire,
-            duties = listOf(
-                "Runs the launcher's social presence and announcements.",
-                "Handles the community: questions, reports and feedback.",
-                "Keeps the download pages and online listings up to date.",
-                "Passes what the community asks for on to the developers."
+             
             )
         )
     )
